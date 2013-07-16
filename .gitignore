@@ -1,0 +1,10 @@
+bin/**
+tmp/**
+.gradle/**
+build/**
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+target
