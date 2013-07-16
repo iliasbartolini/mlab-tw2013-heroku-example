@@ -17,6 +17,12 @@
             <artifactId>servlet-api</artifactId>
             <version>2.5</version>
         </dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.10</version>
+		    <scope>tests</scope>
+		</dependency>        
     </dependencies>
     <build>
         <plugins>
