@@ -8,3 +8,4 @@ build/**
 *~.nib
 local.properties
 target
+.DS_Store

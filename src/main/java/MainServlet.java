@@ -6,11 +6,15 @@ import org.eclipse.jetty.servlet.*;
 
 public class MainServlet extends HttpServlet {
 
-    @Override
+	public String sayHello() {
+		return "Hello from Ilias!";
+	}
+
+	@Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException 
     {
-        resp.getWriter().print("Hello from Ilias!\n");
+        resp.getWriter().print(sayHello());
     }
 
     public static void main(String[] args) throws Exception{
